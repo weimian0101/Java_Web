@@ -1,4 +1,4 @@
-package com.shop.impl;
+package com.shop.dao.impl;
 
 import com.shop.dao.IItemDao;
 import com.shop.domain.Item;
