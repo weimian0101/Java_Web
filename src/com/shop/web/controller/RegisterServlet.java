@@ -1,14 +1,13 @@
 package com.shop.web.controller;
 
+import com.shop.domain.User;
 import com.shop.exception.UserExistException;
 import com.shop.service.IUserService;
 import com.shop.service.impl.UserServiceImpl;
-import com.shop.util.*;
-import com.shop.web.formbean.*;
-import org.apache.commons.beanutils.*;
-import org.apache.commons.beanutils.locale.converters.*;
+import com.shop.util.WebUtils;
+import com.shop.web.formbean.RegisterFormBean;
+import org.apache.commons.beanutils.BeanUtils;
 
-import javax.servlet.*;
 import javax.servlet.annotation.*;
 import javax.servlet.http.*;
 import java.io.*;
