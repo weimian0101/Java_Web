@@ -3,7 +3,7 @@ package com.shop.domain;
 /**
  * JavaBean:PO，字段对应shoppingcart_item表与item表，获取更详细的购物车餐点信息
  * 
- *
+ *bkb
  */
 public class ShoppingcartItemVO {
 	private int itemId;

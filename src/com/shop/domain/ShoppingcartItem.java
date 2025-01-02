@@ -3,7 +3,7 @@ package com.shop.domain;
 /**
  * JavaBean:PO，字段对应shoppingcart_item表
  * 
- *
+ *ujhgui
  */
 public class ShoppingcartItem {
 	private int userId;
