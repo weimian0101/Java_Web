@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * @InterfaceName: IShoppingcartItemService
  * @Description:Service层接口，提供将餐点添加到购物车 / 修改餐点数量（更新）/ 从购物车中删除该餐点 / 得到所有用户购物车餐点列表
- *     1                                / 得到某个用户购物车餐点列表/ 得到某个用户的购物车总金额/
+ *                                     / 得到某个用户购物车餐点列表/ 得到某个用户的购物车总金额/
  *                                     获取某个ShoppingcartItem对象/
  *                                     检查某用户购物车内是否已经存在某商品 等功能
  * 

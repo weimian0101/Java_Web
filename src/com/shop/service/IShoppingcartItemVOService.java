@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * @InterfaceName: IShoppingcartItemVOService
  * @Description:Service层接口，提供获取某个用户购物车中的商品及其详细信息,获取单个对象或者List
- * 1
+ *
  *
  */
 public interface IShoppingcartItemVOService {
