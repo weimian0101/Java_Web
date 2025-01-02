@@ -9,7 +9,6 @@ import com.shop.service.impl.UserServiceImpl;
 import com.shop.util.WebUtils;
 import com.shop.web.formbean.LoginFormBean;
 
-import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import java.io.*;
