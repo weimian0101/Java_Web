@@ -151,7 +151,8 @@
 				</div>
 			</a>
 		</div>
-
+		<!--展示一个特定的产品（饰品），并当用户点击该产品时，
+		//跳转到一个Servlet，该Servlet将获取并展示点击产品的详细信息。通过使用Bootstrap的栅格系统和样式类-->
 		<div class="col-md-4 col-sm-6 col-xs-12">
 			<a href="${pageContext.request.contextPath}/servlet/getItemServlet?itemId=2">
 				<img src="${pageContext.request.contextPath}/images/index/1-2.jpg" class="img-thumbnail">

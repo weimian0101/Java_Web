@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  */
 public class AdminAuthorityFilter implements Filter {
-	@Override
+	@Override//过滤器
 	public void doFilter(ServletRequest req, ServletResponse resp, FilterChain chain)
 			throws IOException, ServletException {
 		HttpServletRequest request = (HttpServletRequest) req;
@@ -29,7 +29,7 @@ public class AdminAuthorityFilter implements Filter {
 			return;
 		}
 
-		response.sendRedirect(request.getContextPath() + "/index.jsp");
+		response.sendRedirect(request.getContextPath() + "/index.jsp");// 管理员未登录，重定向到登录页面
 
 	}
 

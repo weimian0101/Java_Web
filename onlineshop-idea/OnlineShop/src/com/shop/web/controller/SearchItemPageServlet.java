@@ -54,6 +54,7 @@ public class SearchItemPageServlet extends HttpServlet {
 
 			request.setAttribute("itemsPage", page);
 			request.getRequestDispatcher("/search-items.jsp").forward(request, response);
+			//zhuanfa: 跳转到搜索页面
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
 		}

@@ -38,9 +38,9 @@ public class GetItemServlet extends HttpServlet {
 		}
 		System.out.println("item:"+item);
 		
-		request.setAttribute("item", item);
+		request.setAttribute("item", item);//设置item到request中，供jsp页面使用
 		request.getRequestDispatcher("/item.jsp").forward(request, response);
-		
+		//request.getAttribute("item") 来获取这个商品信息。
 		System.out.println("------------GetItemServlet work finished-----------");
 	}
 

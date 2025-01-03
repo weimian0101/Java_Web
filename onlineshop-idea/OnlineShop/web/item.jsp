@@ -97,7 +97,9 @@
 				<div class="panel-body">
 					<font size="8"><strong>${item.name}</strong></font>&nbsp;&nbsp;&nbsp;&nbsp;<font size="5"><strong>${item.type}</strong></font>&nbsp;&nbsp;&nbsp;&nbsp;<font size="4"><strong><span class="glyphicon glyphicon-usd">${item.price}</span></strong></font><br /> <br />
 					<br /> <font size="4">${item.description}</font> <br /> <br />
+					<!--用于接受饰品-->
 
+					<!-- 未登录则显示登录/注册按钮 -->
 					<c:if test="${empty sessionScope.user}">
 						<c:if test="${empty sessionScope.admin}">
 							<center>
